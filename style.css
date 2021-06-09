@@ -153,7 +153,7 @@ hr {
 
 .project-list li:last-child {
   margin-right: 0;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 
 .project-list p {
@@ -212,8 +212,8 @@ hr {
 }
 
 .box-contact li:last-child {
-  /* margin-right: 0; */
-  margin-top: 100px;
+  margin-right: 0;
+  /* margin-top: 100px; */
 }
 
 /* footerÃƒÆ’Ã‚Â£ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã‚Â£ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¿ÃƒÆ’Ã‚Â£ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¤ÃƒÆ’Ã‚Â£Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€šÃ‚Â«ÃƒÆ’Ã‚Â£ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â·ÃƒÆ’Ã‚Â£Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã‚Â£Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€¹Ã¢â‚¬Â ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â½Ãƒâ€¦Ã¢â‚¬Å“ÃƒÆ’Ã‚Â¦Ãƒâ€¹Ã¢â‚¬Â Ãƒâ€šÃ‚Â */
@@ -245,6 +245,7 @@ hr {
 
   .box-profile {
       max-width: 100%;
+      margin: 50px auto 0 auto;
   }
 
   .box-profile img {
@@ -276,7 +277,7 @@ hr {
   }
 
   .box-project {
-      height: 1800px;
+      height: 1500px;
       padding-top: 100px;
   }
 
@@ -288,6 +289,10 @@ hr {
       max-width: 100%;
       margin-top: 40px;
       float: none;
+  }
+
+  .project-list li:last-child {
+    margin-top: 100px; 
   }
 
   .project-list img {
@@ -329,5 +334,10 @@ hr {
       width: 350px;
       /* margin-right: 0; */
       margin: 0 auto;
+  }
+
+  .box-contact li:last-child {
+    /* margin-top: 100px; */
+    margin: 100px auto 0 auto;
   }
 }
