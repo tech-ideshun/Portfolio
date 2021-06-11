@@ -55,6 +55,7 @@ hr {
 .box-profile img {
   border-radius: 50%;
   width: 100%;
+  display: none;
 }
 
 .item-list {
@@ -131,6 +132,7 @@ hr {
 
 /* project */
 .box-project img {
+
 }
 
 .project-list {
