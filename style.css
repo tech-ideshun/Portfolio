@@ -52,6 +52,10 @@ hr {
   float: left;
 }
 
+.box-profile #my-icon {
+  display: none;
+}
+
 .box-profile img {
   border-radius: 50%;
   width: 100%;
@@ -279,7 +283,7 @@ hr {
   }
 
   .box-project {
-      height: 1500px;
+      height: 1700px;
       padding-top: 100px;
   }
 
